@@ -1,0 +1,15 @@
+name: TDS Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 24f3002803@ds.study.iitm.ac.in
+        run: echo "Hello TDS Validator"
+
+      - name: Done
+        run: echo "Workflow completed"
